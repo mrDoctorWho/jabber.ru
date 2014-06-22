@@ -183,7 +183,91 @@ nav a:hover, nav a:active {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 50px;f;
+  margin-bottom: 50px;
+  background-color: white;
+}
+.oneTwoThree li {
+  float: left;
+  list-style: none;
+  width: 33.33333%;
+}
+.oneTwoThree li p {
+  font-family: Roboto-Light;
+  color: #a2aebc;
+  font-size: 24px;
+  line-height: 1;
+  padding-right: 5px;
+}
+.oneTwoThree li p:first-child {
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  color: #0096ff;
+}
+.oneTwoThree li p:first-child:first-letter {
+  color: #00749a;
+}
+
+.middle {
+  background-color: #f5f8f9;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.hexagontext {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.hexagontext .hex {
+  margin-bottom: -350px;
+}
+
+.hex {
+  float: left;
+  width: 280px;
+}
+
+.texthexagon {
+  float: left;
+  margin-bottom: -200px;
+}
+.texthexagon .hex {
+  margin-bottom: 0px;
+}
+.texthexagon .text {
+  padding-right: 200px;
+}
+
+main .text {
+  float: left;
+  width: 720px;
+  position: relative;
+  margin-left: 3px;
+  margin-top: 75px;
+}
+main .text p {
+  font-family: Roboto-Light;
+  color: #a2aebc;
+  font-size: 29px;
+  line-height: 1;
+}
+main .text p:first-child {
+  font-family: Roboto-Regular;
+  font-size: 50px;
+  color: #0096ff;
+}
+
+.hexagon {
+  position: relative;
+  width: 218px;
+  height: 125.86px;
+  background-color: white;
+  margin: 62.93px 0;
+  border-left: solid 1px #bdc5cf;
+  border-right: solid 1px #bdc5cf;
 }
 .hexagon:before {
   top: -77.0746px;
