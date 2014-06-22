@@ -141,6 +141,15 @@ nav a:hover, nav a:active {
   font-size: 16px;
 }
 
+.testicon {
+  width: 22px;
+  border-image: none;
+  border-image-width: 0;
+  vertical-align: baseline;
+  float: left;
+  margin-top: 4px;
+}
+
 .registration {
   margin-left: 130px;
   margin-top: 10px;
@@ -198,12 +207,12 @@ nav a:hover, nav a:active {
   line-height: 1;
   padding-right: 5px;
 }
-.oneTwoThree li p:first-child {
+.oneTwoThree li p:nth-child(2) {
   font-family: sans-serif;
   font-size: 30px;
   color: #0096ff;
 }
-.oneTwoThree li p:first-child:first-letter {
+.oneTwoThree li p:nth-child(2):first-letter {
   color: #00749a;
 }
 
