@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="st.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+  <div class="wrapper">
+    <div class="headbackground">
+      <div class="head">
+        <div class="logoMenu row">
+          <div class="logo">Jabber.Ru</div>
+          <nav>
+            <ul class="row ">
+<!--              <li class="col-xs-32"><a href="https://www.jabber.ru/user/register">Регистрация</a></li>
+              <li class="col-xs-32"><a href="https://www.jabber.ru/user/reset">Сброс пароля</a></li> -->
+            </ul>
+          </nav>
+        </div>
+        <div class="">
+          <div class="slogan">
+            <div class="firstWord">Наш сервис</div>
+            <div class="secondWord"> — это свободное общение для всех.<br/> С нами вы сможете писать своим друзьям по всему миру.</div>
+            <div class="firstWord">Так чего же вы ждёте?</div>
+            <div class="registration"><a href="https://www.jabber.ru/user/register"><button>Присоединяйтесь!</button></a>
+              <div class="passReminder">
+                <a href="https://www.jabber.ru/user/reset">Забыли пароль?</a>
+              </div>
+            </div>
+          </div>
+          <div class="cloud "><div id="circle"></div></div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="oneTwoThree row">
+        <ul>
+          <li>
+            <p>Бесплатные звонки</p>
+            <p>А вы знаете, что с $JABBER_REPLACEMENT Вы можете звонить своим друзьям совершенно бесплатно?</p>
+          </li>
+          <li>
+            <p>Бесплатные SMS</p>
+            <p>Вы будете получать уведомления о непрочитанных сообщениях, даже когда будете не в сети!</p>
+          </li>
+          <li>
+            <p>Бесплатные конфы</p>
+            <p>Устали объяснять одно и тоже нескольким людям одновременно? Создайте свою конференцию!</p>
+          </li>
+        </ul>
+      </div>
+      <div class="middle clearfix">
+        <div class="hexagontext col-xs-12 row clearfix ">
+          <div class="hex "><div class="hexagon "></div><div class="hexagon2"></div><div class="hexagon3"></div></div>
+          <div class="text">
+            <p>Вы, наверное, спросите</p>
+            <p>Что же здесь делают эти шестиграники? <br>
+            Для чего они нужны? Они так и будут пустовать?</p>
+          </div>
+        </div>
+        <div class="texthexagon col-xs-12 row clearfix ">
+          <div class="text">
+            <p>Но я вам отвечу</p>
+            <p>Что это неплохой декоративный элемент в который можно встроить иллюстрацию или фотографию</p>
+          </div>
+          <div class="hex "><div class="hexagon "></div><div class="hexagon2"></div><div class="hexagon3"></div></div>
+
+        </div>
+      </div>
+    </main>
+    <footer class="clearfix">
+      Здесь будет футер, но давайте сначала определимся с верхушкой?
+    </footer>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $( ".registration button" ).hover(
+      function() {
+      $( "#circle" ).toggleClass("hov");
+      }, function() {
+      $( "#circle" ).toggleClass("hov");
+      }
+      );
+    </script>
+  </body>
+</html>
