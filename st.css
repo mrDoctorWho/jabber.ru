@@ -94,6 +94,18 @@ nav a {
   -o-transition: background 1s ease;
   transition: background 1s ease;
 }
+nav a:hover, nav a:active {
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background: #56bafe;
+  webkit-transition: background 1s ease;
+  -moz-transition: background 1s ease;
+  -ms-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
+}
 
 .logo {
   float: left;
@@ -109,19 +121,6 @@ nav a {
 
 .logoMenu {
   padding-top: 28px;
-}
-
-nav a:hover, nav a:active {
-  color: white;
-  text-decoration: none;
-  padding: 3px 5px;
-  border-radius: 5px;
-  background-color: #56bafe;
-  webkit-transition: background 1s ease;
-  -moz-transition: background 1s ease;
-  -ms-transition: background 1s ease;
-  -o-transition: background 1s ease;
-  transition: background 1s ease;
 }
 
 .slogan {
@@ -150,15 +149,8 @@ nav a:hover, nav a:active {
   font-family: Roboto-Regular;
   font-size: 20px;
   width: 220px;
-  background: #f7965f;
-  background: -moz-linear-gradient(top, #f7965f 0%, #f2640e 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7965f), color-stop(100%, #f2640e));
-  background: -webkit-linear-gradient(top, #f7965f 0%, #f2640e 100%);
-  background: -o-linear-gradient(top, #f7965f 0%, #f2640e 100%);
-  background: -ms-linear-gradient(top, #f7965f 0%, #f2640e 100%);
-  background: linear-gradient(to bottom, #f7965f 0%, #f2640e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2',GradientType=0 );
   height: 50px;
+  background: #e93737;
   border: none;
   border-radius: 5px;
   color: white;
@@ -171,7 +163,7 @@ nav a:hover, nav a:active {
   transition: background 1s ease;
 }
 .registration button:hover {
-  background-color: #e69200;
+  background: #e69200;
   webkit-transition: background 1s ease;
   -moz-transition: background 1s ease;
   -ms-transition: background 1s ease;

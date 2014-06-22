@@ -132,6 +132,13 @@ nav
 		color: white
 		padding: 3px 5px
 		@include background1s
+		&:hover, &:active
+			color: white
+			text-decoration: none
+			padding: 3px 5px
+			border-radius: 5px
+			background: rgba(86, 186, 254, 1)
+			@include background1s
 
 
 .logo
@@ -147,13 +154,6 @@ nav
 .logoMenu
 	padding-top: 28px
 
-nav a:hover, nav a:active
-	color: white
-	text-decoration: none
-	padding: 3px 5px
-	border-radius: 5px
-	background-color: rgba(86, 186, 254, 1)
-	@include background1s
 
 .slogan
 	//font-family: sans-serif
@@ -179,8 +179,9 @@ $buttonRegWidth: 220px
 		font-family: $fontSemiBold
 		font-size: 20px
 		width: $buttonRegWidth
-		@include backGrad(#f7965f, #f2640e)
+		//@include backGrad(#E93737,#E53736)//(#f7965f, #f2640e)
 		height: 50px
+		background: #E93737
 		border: none
 		border-radius: 5px
 		color: white
@@ -188,7 +189,7 @@ $buttonRegWidth: 220px
 		padding: 0 20px
 		@include background1s
 		&:hover
-			background-color: $redHover
+			background: $redHover
 			@include background1s
 .passReminder
 	text-align: center
