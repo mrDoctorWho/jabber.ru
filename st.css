@@ -223,6 +223,7 @@ nav a:hover, nav a:active {
   padding-right: 50px;
   padding-bottom: 50px;
   text-align: center;
+  display: none;
 }
 
 .hexagontext {
