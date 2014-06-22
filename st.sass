@@ -56,10 +56,10 @@ $redHover: #E69200
 $darkBlue: #00749A
 $lightBlue: #0096FF
 $fontHandwriting: Nautilus
-$fontRegular: Roboto-Regular
-$fontLight: Roboto-Light
-$fontBold: Roboto-Bold
-$fontSemiBold: Roboto-Regular
+$fontRegular: sans-serif
+$fontLight: sans-serif
+$fontBold: sans-serif
+$fontSemiBold: sans-serif
 $shadow: rgba(255, 188, 70, 1)
 @mixin shadow($rad)
 	-webkit-box-shadow: 0 0 $rad $rad $shadow
@@ -73,14 +73,14 @@ body
 	width: 1200px
 	margin: 0 auto
 #circle
-	width: 88px
-	height: 88px
+	width: 67px//88px
+	height: 67px//88px
 	background: rgba(255, 233, 194, 1)
 	-moz-border-radius: 50px
 	-webkit-border-radius: 50px
 	border-radius: 50px
-	margin-left: 212px
-	margin-top: 253px
+	margin-left: 160px//212px
+	margin-top: 190px//253px
 	@include shadow(30px)
 	@include opacity1s
 	opacity: 0
@@ -110,7 +110,7 @@ body
 	background: url('images/lamp.svg') no-repeat
 	background-size: 100%
 	height: 530px//450px
-	width: 480px
+	width: 360px
 	margin-top: -130px
 
 footer
