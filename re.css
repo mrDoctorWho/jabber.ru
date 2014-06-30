@@ -52,6 +52,7 @@
 body article:nth-child(1) {
 	//background-image: url('background-photos-42.jpg');
 	background-image: url('http://cdn.wallwuzz.com/uploads/wallpaper-backgr-background-wallpapers-wallwuzz-hd-wallpaper-14174.jpg');
+
 }
 body article:nth-child(1):after {
 
