@@ -58,7 +58,7 @@ body article:nth-child(2) {
 	его нет сука пиздец
 }
 body article:nth-child(3) {
-	background-image: url('Depositphotos_12784347_xl.jpg');
+	background-image: url('Depositphotos_12784347_xl2.jpg');
 }
 body article:nth-child(3) .transition_texte{
 	color: rgb(216, 38, 46)  ;
@@ -246,4 +246,10 @@ body article:nth-child(4) #conteneur_histoire {
     box-shadow: 5px 5px 10px 1px rgba(0, 177, 183, 1);
 }
 body article:nth-child(5) #conteneur_histoire {
+}
+#contact > div {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.titre_gris {
+    text-shadow: 0 0 3px black;
 }
