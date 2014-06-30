@@ -206,7 +206,7 @@ article
   margin-top:-18px;
   width:40px;
   height:36px;
-  background:url(http://media.drawtoclick.com/image/bg_icone_menu.png);
+  background:url(bg_icone_menu.png);
 }
 
 #menu_contenu
@@ -258,7 +258,7 @@ article
 
 body article:nth-child(1)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_home.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_home.jpg);
   //background-color: #D8262E;
 }
 body article:nth-child(2)
@@ -268,27 +268,27 @@ body article:nth-child(2)
 }
 body article:nth-child(3)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_trans_home.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_trans_home.jpg);
 }
 
 body article:nth-child(5)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_1.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_1.jpg);
 }
 
 body article:nth-child(6)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_2.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_2.jpg);
 }
 
 body article:nth-child(7)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_3.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_3.jpg);
 }
 
 body article:nth-child(9)
 {
-  background-image:url(http://media.drawtoclick.com/image/bg_trans_agence.jpg);
+  /background-image:url(http://media.drawtoclick.com/image/bg_trans_agence.jpg);
 }
 
 body article
@@ -366,7 +366,7 @@ body article
 
 #home_scroll
 {
-  background:url(http://media.drawtoclick.com/image/bg_scroll.png) no-repeat scroll 0 -8px;
+  /background:url(http://media.drawtoclick.com/image/bg_scroll.png) no-repeat scroll 0 -8px;
   width:86px;
   height:91px;
   cursor:pointer;
@@ -386,7 +386,7 @@ body article
 
 .btn_rond
 {
-  background:url(http://media.drawtoclick.com/image/img_rond_home.png);
+  /background:url(http://media.drawtoclick.com/image/img_rond_home.png);
   width:34px;
   height:34px;
   cursor:pointer;
