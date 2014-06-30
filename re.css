@@ -18,10 +18,12 @@
 }
 .largeText span {
 	color:  #66060B;
+	color: rgba(8, 97, 116, 1);
 }
 .logo {
 	font-size: 40px;
 	color: #B2F5E5;
+
 }
 .menu_rubrique:hover, .menu_sous_rubrique:hover, .menu_actif {
     color: #55756E;
@@ -36,6 +38,8 @@
 }
 #home_wa a {
 	color: #F5C63B;
+	color: rgba(35, 106, 176, 1);
+	color: rgba(8, 97, 116, 1);
 }
 #home_wa a:hover {
 	text-decoration: underline;
@@ -51,6 +55,15 @@ body article:nth-child(1) {
 	/background-image: url('background-photos-42.jpg');
 	/background-image: url('http://cdn.wallwuzz.com/uploads/wallpaper-backgr-background-wallpapers-wallwuzz-hd-wallpaper-14174.jpg');
 	background-color: #33cdff;
+	background: #00b8ff;
+  background: -moz-linear-gradient(top, #00b8ff 0%, #4ccdff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00b8ff), color-stop(100%, #4ccdff));
+  background: -webkit-linear-gradient(top, #00b8ff 0%, #4ccdff 100%);
+  background: -o-linear-gradient(top, #00b8ff 0%, #4ccdff 100%);
+  background: -ms-linear-gradient(top, #00b8ff 0%, #4ccdff 100%);
+  background: linear-gradient(to bottom, #00b8ff 0%, #4ccdff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2',GradientType=0 );
+
 
 }
 body article:nth-child(1):after {
