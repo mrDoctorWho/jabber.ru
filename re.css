@@ -264,3 +264,6 @@ body article:nth-child(5) #conteneur_histoire {
 .titre_gris {
     text-shadow: 0 0 3px black;
 }
+#contact  {
+	margin-bottom: 0;
+}
