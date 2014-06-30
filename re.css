@@ -18,6 +18,7 @@
 }
 .largeText span {
 	color:  #66060B;
+	color: rgba(3, 120, 129, 1);
 }
 .logo {
 	font-size: 40px;
@@ -36,6 +37,7 @@
 }
 #home_wa a {
 	color: #F5C63B;
+	color: rgba(0, 149, 207, 1);
 }
 #home_wa a:hover {
 	text-decoration: underline;
@@ -48,7 +50,8 @@
 	display: none;
 }
 body article:nth-child(1) {
-	background-image: url('background-photos-42.jpg');
+	//background-image: url('background-photos-42.jpg');
+	background-image: url('http://cdn.wallwuzz.com/uploads/wallpaper-backgr-background-wallpapers-wallwuzz-hd-wallpaper-14174.jpg');
 }
 body article:nth-child(1):after {
 
